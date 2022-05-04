@@ -79,7 +79,7 @@ const Navbar = props => {
           </LinkItem> */}
           <LinkItem
             target="_blank"
-            href="https://kishan-s-portfolio-website.vercel.app"
+            href="https://github.com/kishanc2/Kishan-s-Portfolio-Website"
             path={path}
             display="inline-flex"
             alignItems="center"
