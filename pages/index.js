@@ -43,9 +43,9 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Takuya Matsuyama
+            Kishan Challagulla
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Computer Science Student - the University of Illinois Urbana-Champaign</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,15 +76,12 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Who Am I?
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          I am student studying Computer Science at the University of Illinois Urbana-Champaign
+          who is passionate about AI and Cloud technologies. Please reach out to me through my
+          contact inforation below.{' '}
           <NextLink href="/works/inkdrop" scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
