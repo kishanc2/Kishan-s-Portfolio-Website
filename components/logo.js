@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Kishan Challagulla
+            Kishan Challagullaaaaa
           </Text>
         </LogoBox>
       </a>
