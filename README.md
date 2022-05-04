@@ -1,6 +1,6 @@
 # Kishan's Portfolio Webpage
 
-[https://https-github-com-kishanc2-interactive-potfolio-website.vercel.app](https://https-github-com-kishanc2-interactive-potfolio-website.vercel.app)
+[https://kishan-s-portfolio-website.vercel.app](https://kishan-s-portfolio-website.vercel.app)
 
 
 ## Stack
