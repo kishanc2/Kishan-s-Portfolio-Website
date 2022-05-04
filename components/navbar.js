@@ -86,7 +86,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
+            <IoLogoGithub /> 
             GitHub
           </LinkItem>
         </Stack>
