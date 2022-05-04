@@ -98,10 +98,6 @@ const Home = () => (
           Experience
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
-        </BioSection>
-        <BioSection>
           <BioYear>Jan 2022 - Present</BioYear>
           CS-124(Introduction to Copmuter Science I) Course Assistant
           @ The University of Illinois Urbana-Champaign
@@ -109,11 +105,11 @@ const Home = () => (
         <BioSection>
           <BioYear>Feb 2021 - Oct 2021</BioYear>
           Co-Founder of S.E.C.H.A.R
-          - Created and Ran the S.E.C.H.A.R foundation website
-          - Handled the finances
-          - Established and led a team of 6 people, delegating operational tasks 
-          - Held Tech workshops for underprivileged children
-          - Ran all of the socials
+          - Created and Ran the S.E.C.H.A.R foundation website\n
+          - Handled the finances\n
+          - Established and led a team of 6 people, delegating operational tasks\n
+          - Held Tech workshops for underprivileged children\n
+          - Ran all of the socials\n
         </BioSection>
         <BioSection>
           <BioYear>May 2021 - Aug 2021</BioYear>
