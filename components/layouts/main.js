@@ -24,11 +24,11 @@ const Main = ({ children, router }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@craftzdog" />
         <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://dribbble.com/shots/10042973-pizza-voxel/attachments/2061501?mode=media" />
+        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
         <meta property="og:site_name" content="Kishan Challagulla" />
         <meta name="og:title" content="Kishan Challagulla" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://dribbble.com/shots/10042973-pizza-voxel/attachments/2061501?mode=media" />
+        <meta property="og:image" content="https://www.craftz.dog/card.png" />
         <title>Kishan Challagulla - Homepage</title>
       </Head>
 
