@@ -79,12 +79,9 @@ const Home = () => (
           Who Am I?
         </Heading>
         <Paragraph>
-          I am student studying Computer Science at the University of Illinois Urbana-Champaign
+          I am a student studying Computer Science at the University of Illinois Urbana-Champaign
           who is passionate about AI and Cloud technologies. Please reach out to me through my
-          contact inforation below.{' '}
-          <NextLink href="/works/inkdrop" scroll={false}>
-            <Link>Inkdrop</Link>
-          </NextLink>
+          contact inforation below.
           .
         </Paragraph>
         <Box align="center" my={4}>
@@ -98,25 +95,36 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Experience
         </Heading>
         <BioSection>
           <BioYear>1984</BioYear>
           Born in Osaka (大阪), Japan.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>Jan 2022 - Present</BioYear>
+          CS-124(Introduction to Copmuter Science I) Course Assistant
+          @ The University of Illinois Urbana-Champaign
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>Feb 2021 - Oct 2021</BioYear>
+          Co-Founder of S.E.C.H.A.R
+          - Created and Ran the S.E.C.H.A.R foundation website
+          - Handled the finances
+          - Established and led a team of 6 people, delegating operational tasks 
+          - Held Tech workshops for underprivileged children
+          - Ran all of the socials
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Works as a freelance
+          <BioYear>May 2021 - Aug 2021</BioYear>
+          Data Analyst @ Hanover Township Center
+          - Gather and input data into databases, and verify the accuracy of valuable organization information
+          - Review data for errors or redundancies, make corrections and check the output
+          - Research information needed for incomplete documents with minimal oversight
+          - Use and analyze data from automated information aggregators to update the database.
+          - Create systems and processes to efficiently capture information, and coach the team on usage
+          - Generate reports, store outputs in the database, and perform backups
+          - Scan and print files as needed
         </BioSection>
       </Section>
 
