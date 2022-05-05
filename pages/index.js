@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/https://bit.ly/dan-abramov"
+              src="/images/takuya.jpg"
               // borderColor = "whiteAlpha.800"
               // fill = "Teal 200"
               alt="KC"
