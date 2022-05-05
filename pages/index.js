@@ -69,9 +69,10 @@ const Home = () => (
               // fill = "Teal 200"
               alt="KC"
               fill="teal"
-              // borderRadius="full"
-              // width="100%"
-              // height="100%"
+              borderRadius="full"
+              width="100%"
+              height="100%"
+              overflow="hidden"
             />
           </Box>
         </Box>
