@@ -47,7 +47,7 @@ const Home = () => (
           </Heading>
           <p>Computer Science Student - the University of Illinois Urbana-Champaign</p>
         </Box>
-        {/* <Box
+        <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
@@ -71,7 +71,7 @@ const Home = () => (
               height="100%"
             />
           </Box>
-        </Box> */}
+        </Box>
       </Box>
 
       <Section delay={0.1}>
