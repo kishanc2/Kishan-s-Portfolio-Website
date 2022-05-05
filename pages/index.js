@@ -66,6 +66,7 @@ const Home = () => (
             <ProfileImage
               // src="/images/takuya.jpg"
               borderColor = "whiteAlpha.800"
+              fill = "Teal 200"
               alt="Profile image"
               borderRadius="full"
               width="100%"
