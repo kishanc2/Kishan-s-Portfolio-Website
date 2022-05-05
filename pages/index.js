@@ -20,7 +20,7 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import Image from '@chakra-ui/react'
+import Image from 'Downloads'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -64,7 +64,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="https://bit.ly/dan-abramov"
+              src="teal.jpg"
               // borderColor = "whiteAlpha.800"
               // fill = "Teal 200"
               alt="KC"
