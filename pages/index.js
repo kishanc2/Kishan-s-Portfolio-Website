@@ -47,13 +47,13 @@ const Home = () => (
           </Heading>
           <p>Computer Science Student - the University of Illinois Urbana-Champaign</p>
         </Box>
-        <Box
+        {/* <Box
           flexShrink={0}
           mt={{ base: 4, md: 0 }}
           ml={{ md: 6 }}
           textAlign="center"
         >
-          {/* <Box
+          <Box
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
@@ -70,8 +70,8 @@ const Home = () => (
               width="100%"
               height="100%"
             />
-          </Box> */}
-        </Box>
+          </Box>
+        </Box> */}
       </Box>
 
       <Section delay={0.1}>
