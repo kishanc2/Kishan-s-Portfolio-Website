@@ -10,7 +10,6 @@ import {
   ListItem,
   useColorModeValue,
   chakra,
-  Image
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -21,11 +20,11 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-// import Image from 'next/image'
+import Image from 'next/image'
 
-// const ProfileImage = chakra(Image, {
-//   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
-// })
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+})
 
 const Home = () => (
   <Layout>
