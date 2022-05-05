@@ -63,13 +63,13 @@ const Home = () => (
             borderRadius="full"
             overflow="hidden"
           >
-            <ProfileImage
+            {/* <ProfileImage
               src="/images/takuya.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
               height="100%"
-            />
+            /> */}
           </Box>
         </Box>
       </Box>
@@ -81,7 +81,7 @@ const Home = () => (
         <Paragraph>
           I am a student studying Computer Science at the University of Illinois Urbana-Champaign
           who is passionate about AI and Cloud technologies. Please reach out to me through my
-          contact inforation below.
+          contact information below.
           .
         </Paragraph>
         <Box align="center" my={4}>
