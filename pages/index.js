@@ -53,7 +53,7 @@ const Home = () => (
           ml={{ md: 6 }}
           textAlign="center"
         >
-          <Box
+          {/* <Box
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
@@ -63,7 +63,7 @@ const Home = () => (
             borderRadius="full"
             overflow="hidden"
           >
-            {/* <ProfileImage
+            <ProfileImage
               src="/images/takuya.jpg"
               alt="Profile image"
               borderRadius="full"
