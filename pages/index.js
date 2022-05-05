@@ -54,7 +54,7 @@ const Home = () => (
           textAlign="center"
         >
           <Box
-            borderColor="whiteAlpha.800"
+            borderColor="BlackAlpha.900"
             borderWidth={2}
             borderStyle="solid"
             w="100px"
