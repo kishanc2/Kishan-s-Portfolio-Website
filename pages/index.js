@@ -67,7 +67,7 @@ const Home = () => (
               // src="/images/takuya.jpg"
               // borderColor = "whiteAlpha.800"
               // fill = "Teal 200"
-              alt="Profile image"
+              alt="KC"
               borderRadius="full"
               width="100%"
               height="100%"
