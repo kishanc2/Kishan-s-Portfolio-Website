@@ -68,6 +68,7 @@ const Home = () => (
               // borderColor = "whiteAlpha.800"
               // fill = "Teal 200"
               alt="KC"
+              fill="teal"
               borderRadius="full"
               width="100%"
               height="100%"
