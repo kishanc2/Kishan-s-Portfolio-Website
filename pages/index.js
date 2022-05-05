@@ -64,9 +64,9 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              // src="/images/takuya.jpg"
-              borderColor = "whiteAlpha.800"
-              fill = "Teal 200"
+              src="/images/takuya.jpg"
+              // borderColor = "whiteAlpha.800"
+              // fill = "Teal 200"
               alt="Profile image"
               borderRadius="full"
               width="100%"
