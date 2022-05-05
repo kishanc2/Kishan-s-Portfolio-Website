@@ -20,9 +20,9 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-// import Image from 'next/image'
+import Image from 'next/image'
 
-const ProfileImage = chakra({
+const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
@@ -69,7 +69,7 @@ const Home = () => (
               // fill = "Teal 200"
               alt="KC"
               fill="teal"
-              borderRadius="full"
+              // borderRadius="full"
               width="100%"
               height="100%"
             />
