@@ -63,7 +63,7 @@ const Home = () => (
             borderRadius="full"
             overflow="hidden"
           >
-            <Image
+            <ProfileImage
               src="https://bit.ly/dan-abramov"
               // borderColor = "whiteAlpha.800"
               // fill = "Teal 200"
