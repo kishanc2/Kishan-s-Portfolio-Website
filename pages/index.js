@@ -63,13 +63,13 @@ const Home = () => (
             borderRadius="full"
             overflow="hidden"
           >
-            {/* <ProfileImage
+            <ProfileImage
               src="/images/takuya.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
               height="100%"
-            /> */}
+            />
           </Box>
         </Box>
       </Box>
