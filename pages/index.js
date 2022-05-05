@@ -20,11 +20,23 @@ import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-// import Image from 'next/image'
+import Image from 'next/image'
 
 // const ProfileImage = chakra(Image, {
 //   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 // })
+const myLoader = ({ src, width, quality }) => {
+  return `https://bit.ly/dan-abramov/${src}?w=${width}&q=$${src}?w=${width}&q=${quality || 75}`
+}
+
+const MyImage = (props) => (
+  <Image
+    loader={myLoader}
+    src="https://bit.ly/dan-abramov"
+    alt="KC"
+    width={500}
+    height={500} />
+)
 
 const Home = () => (
   <Layout>
